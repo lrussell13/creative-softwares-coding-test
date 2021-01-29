@@ -1,0 +1,35 @@
+.show-date {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    width: 260px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.show-date-day {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0.266341px;
+    color: #545454;
+    margin: 0;
+}
+
+.show-date-month {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.266341px;
+    color: #1F1F1F;
+    margin: 2px 0;
+}
+
+.show-date-year {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;  
+    letter-spacing: 0.266341px;
+    color: #AFAFAF;
+    margin: 0;
+}

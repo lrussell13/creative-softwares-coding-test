@@ -1,0 +1,77 @@
+.task {
+    border: 1px solid rgba(31, 31, 31, 0.08);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-title {
+    display: flex;
+    align-items: center;
+}
+
+.task-header-right {
+    display: flex;
+    align-items: center;
+    color: #AFAFAF;
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.react-datepicker-wrapper {
+    margin-top: 4px;
+}
+
+.task-due-date {
+    margin: 0 4px!important;
+}
+
+.task-info {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.priority {
+    background: #CBCBCB;
+    border-radius: 20px;
+    padding: 4px 16px;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 20px;
+    margin-left: 4px;
+}
+.priority.low.active {
+    Background: #5FCD8D;
+}
+.priority.medium.active {
+    Background: #FB8333;
+}
+.priority.high.active {
+    Background: #FF6159;
+}
+
+.checkbox {
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.checkbox-low path {
+    stroke: #5FCD8D;
+}
+.checkbox-medium path {
+    stroke: #FB8333;
+}
+.checkbox-high path {
+    stroke: #FF6159;
+}
